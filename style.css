@@ -1,0 +1,45 @@
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    height: 480px;
+    width: 640px;
+}
+
+canvas{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index:0
+}
+
+div#dashboard{
+    position: absolute;
+    top: 0;
+    left: 640px;
+    padding: 10px;
+    max-width: 500px;
+}
+
+div#usageNoteSide{
+    margin-top: 30px;
+}
+p, h4{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+button#start{
+    font-size: x-large;
+    padding: 5px;
+    margin: 10px 200px auto;
+    align-self: center;
+
+}
+button#reset{
+    font-size: medium;
+    margin-top: 20px;
+    display: none;
+
+}

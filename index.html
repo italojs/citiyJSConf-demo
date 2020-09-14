@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.2"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/body-pix@2.0"></script>
+    </head>
+
+    <body>
+        <div>
+            <canvas></canvas>
+            <video id="myVid" autoplay playsinline></video>
+        </div>
+        <div id="dashboard">
+            <input type="checkbox" id="showMask">
+            <label>Segmentation mask</label><br>
+
+            <input type="checkbox" id="showPoints">
+            <label>Detection points</label><br>
+        </div>
+
+        <script src="detect.js"></script>
+    </body>
+</html>
